@@ -1,0 +1,1255 @@
+/*CSS for museim*/
+
+
+/*ПАРАМЕТРЫ ОСНОВНОГО БЛОКА С САЙТОМ*/
+
+body {
+background-image: url('images/bodyfon.jpg');
+background-attachment: fixed;
+box-align: center;
+
+}
+
+
+
+#contentblock{
+border: 7px solid #000080;
+border-radius: 20px;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+-o-border-radius: 20px;
+-ms-border-radius: 20px;
+-khtml-border-radius: 20px;
+width: 1100px;
+height: 100%;
+background-image: url('images/contfon.jpg');
+background-attachment: fixed;
+padding: 0px;
+box-align: center;
+margin: 0 auto;
+}
+
+/*ПАРАМЕТРЫ КАРТИНКИ В ХЕАДЕРЕ*/
+
+#headblock {
+position: relative;
+width: 1100px;
+height: 101px;
+ border: px solid #;
+}
+
+#headblock img{
+margin-left: 0px;
+}
+
+
+
+/*ПАРАМЕТРЫ НАЗВАНИЯ САЙТА*/
+
+#nameblock {
+position: relative;
+width: 1100px;
+height: 70px;
+border-top-width: 1,5px; 
+border-top-style: solid; 
+border-top-color: #FFD700; 
+border-bottom: 2px solid blue;
+top: 34px;
+box-align center;
+background-color: #000080;
+}
+
+#naimenovanie {
+position: relative;
+width: 700px;
+height: 50px;
+top: 3px;
+}
+
+
+#naimenovanie a{
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 25px;
+text-shadow: 2px 5px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow: 2px 5px 0px black, 1px 10px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 5px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+margin-left: 10px;
+text-decoration: none;
+background-color: #000080;
+}
+
+#komment {
+position: relative;
+width: 320px;
+height: 50px;
+left: 760px;
+bottom: 37px;
+}
+
+
+#komment span{
+color: white;
+font-family: sans-serif;
+font-face: Verdana;
+font-weight: bold;
+font-style: normal;
+font-size: 18px;
+text-shadow: 2px 3px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow: 2px 3px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 6px 5px 0px black, 11px 10px 0px rgba(0,0,0,0.15);
+}
+
+
+/*ПАРАМЕТРЫ ГЛАВНОГО МЕНЮ*/
+
+#menu {
+position: relative;
+width: 1100px;
+height: 35px;
+list-style-type: none;
+float: left;
+top: 32px;
+border-bottom-width: 2; 
+border-bottom-style: solid; 
+border-bottom-color: blue;
+}
+
+
+
+#menu li form button {
+width: 220px;
+height: 35px;
+background: #000080; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD), to(#000080)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD,  #000080); /* для Firefox */
+background-image: -o-linear-gradient(top,  #0000CD, #000080); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#000080'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+border-left-width: 0; 
+border-left-style: solid; 
+border-left-color: white; 
+border-right-width: 0; 
+border-right-style: solid; 
+border-right-color: white; 
+border-top-width: 1; 
+border-top-style: solid; 
+border-top-color: #FFD700; 
+border-bottom-width: 0; 
+border-bottom-style: solid; 
+border-bottom-color: white; 
+cursor: pointer;
+}
+
+
+#menu  li form button:hover {
+width: 220px;
+height: 35px;
+border-top-width: 3px; 
+border-top-style: solid; 
+border-top-color: #FFD700; 
+border-bottom-width: 3px; 
+border-bottom-style: solid; 
+border-bottom-color: #FFD700; 
+border-left-width: 0; 
+border-left-style: solid; 
+border-left-color: white; 
+border-right-width: 0; 
+border-right-style: solid; 
+border-right-color: white; /* отвечает за нижний цвет границы */
+background: #0000CD; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(), to(#0000CD)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top, #000080 , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #000080 , #0000CD  ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000080', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+cursor: pointer;
+}
+
+#menu li form button:active {
+border-top-width: 3px; 
+border-top-style: solid; 
+border-top-color: #FFD700; 
+border-bottom-width: 3px; 
+border-bottom-style: solid; 
+border-bottom-color: #FFD700; 
+border-left-width: 0; 
+border-left-style: solid; 
+border-left-color: white; 
+border-right-width: 0; 
+border-right-style: solid; 
+border-right-color: white; /* отвечает за нижний цвет границы */
+width: 220px;
+height: 35px;
+background-color: #0000CD ;
+background: ; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD ), to(#0000CD )); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #0000CD  ,  #0000CD ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+list-style-type: none;
+float: left;
+cursor: pointer;
+}
+
+#menu  li form button p{
+color: white;
+font-family: sans-serif;
+font-face: Verdana;
+font-weight: normal;
+font-style: normal;
+font-size: 14px;
+text-shadow: 2px 3px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow: 2px 3px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 3px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+text-align: center;
+margin-top: 6px;
+}
+
+/*ПАРАМЕТРЫ ЛЕВОЙ ПАНЕЛИ*/
+#leftblock {
+position: relative;
+width: 220px;
+height: 1500px;
+box-align center;
+top: 70px;
+}
+
+/*ПАРАМЕТРЫ КОМЬЮНИТИ*/
+
+#komuniti {
+position: relative;
+top: 17px;
+left: 11px;
+width: 190px;
+height: 75px;
+box-align: center;
+border: 4px solid #000080;
+background: #e6e6fa;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+-khtml-border-radius: 10px;
+}
+
+#komuniti img:hover{
+width: 32px;
+height: 32px;
+border: 2px solid #000080;
+border-radius: 8px;
+}
+
+
+#komname {
+position: relative; 
+width: 190px;
+height: 30px;
+background: #000080;
+}
+
+#komname span {
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 20px;
+text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow:2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+bottom: 33px;
+left: 5px;
+}
+
+/*ПАРАМЕТРЫ ДЕВИЗА*/
+
+#devis {
+position: relative;
+top: 37px;
+left: 11px;
+width: 190px;
+height: 140px;
+box-align: center;
+border: 4px solid #000080;
+background: #e6e6fa;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+-khtml-border-radius: 10px;
+}
+
+#slovadevis {
+position: relative; 
+width: 190px;
+height: 30px;
+background: #000080;
+}
+
+#slovadevis span {
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 20px;
+text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow:2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+bottom: 3px;
+left: 37px;
+
+}
+
+
+#devis  p{
+color: #000080;
+font-family: sans-serif;
+font-face: Verdana;
+font-weight: bold;
+font-style: normal;
+font-size: 20px;
+text-align: center;
+margin: 12px;
+margin-top: 0px;
+}
+
+
+
+/*ПАРАМЕТРЫ РАСПИСАНИЯ*/
+
+#raspisanie {
+position: relative;
+top: 56px;
+left: 11px;
+width: 190px;
+height: 300px;
+box-align: center;
+border: 4px solid #000080;
+background: #e6e6fa;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+-khtml-border-radius: 10px;
+}
+
+
+#raspisanie span {
+color: red;
+font-family: sans-serif;
+font-face: Verdana;
+font-weight: bold;
+font-style: italic;
+font-size: 17px;
+text-align: center;
+}
+
+
+#raspisanie p {
+color: black;
+font-family: sans-serif;
+font-face: Verdana;
+font-weight: normal;
+font-style: normal;
+font-size: 15px;
+text-align: center;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 2px;
+}
+
+
+#grafik {
+position: relative; 
+width: 190px;
+height: 30px;
+background: #000080;
+}
+
+#grafik span {
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 20px;
+text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow:2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+bottom: 0px;
+left: 19px;
+}
+
+
+
+/*ПАРАМЕТРЫ ЛЕВЫХ ССЫЛОК*/
+
+#friends {
+position: relative;
+top: 76px;
+left: 11px;
+width: 190px;
+height: 285px;
+box-align: center;
+border: 4px solid #000080;
+background: #e6e6fa;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+-khtml-border-radius: 10px;
+}
+
+#ourfriends {
+position: relative; 
+width: 190px;
+height: 30px;
+background: #000080;
+}
+
+#ourfriends span {
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 20px;
+text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow:2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+bottom: 0px;
+left: 35px;
+}
+
+#friends ul li a {
+font-size: 16px;
+text-align: center;
+color: #000080;
+}
+
+#friends ul li a:hover {
+font-size: 16px;
+text-align: center;
+color: black;
+}
+
+#friends ul li {
+list-style-type: square;
+color: #000080;
+}
+
+/*ПАРАМЕТРЫ АНГЛИЙСКОЙ ВЕРСИИ*/
+
+#engl{
+position: relative;
+top: 110px;
+left: 15px;
+width: 190px;
+height: 20px;
+box-align: center;
+}
+
+#engl form button {
+width: 190px;
+height: 35px;
+background: #000080; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD), to(#000080)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD,  #000080); /* для Firefox */
+background-image: -o-linear-gradient(top,  #0000CD, #000080); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#000080'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+}
+
+
+#engl form button:hover {
+width: 190px;
+height: 35px;
+border-right-color: white; /* отвечает за нижний цвет границы */
+background: #0000CD; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(), to(#0000CD)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top, #000080 , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #000080 , #0000CD  ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000080', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+}
+
+#engl form button:active {
+width: 190px;
+height: 35px;
+background-color: #0000CD ;
+background: ; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD ), to(#0000CD )); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #0000CD  ,  #0000CD ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+list-style-type: none;
+float: left;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+}
+
+#engl form button p {
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 16px;
+text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow:2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+bottom: 11px;
+left: 2px;
+}
+
+/*ПАРАМЕТРЫ КЬЮЭР*/
+
+#qrkod {
+position: relative;
+top: 95px;
+left: 11px;
+width: 190px;
+height: 240px;
+box-align: center;
+border: 4px solid #000080;
+background: #e6e6fa;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+-khtml-border-radius: 10px;
+}
+
+#qrkodname {
+position: relative; 
+width: 190px;
+height: 30px;
+background: #000080;
+}
+
+
+#qrkodname span{
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 20px;
+text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow:2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+bottom: 0px;
+left: 57px;
+}
+
+
+#qrkod  p{
+color: black;
+font-family: sans-serif;
+font-face: Verdana;
+font-weight: normal;
+font-style: normal;
+font-size: 12px;
+text-align: justify;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 2px;
+}
+
+
+
+
+/*ПАРАМЕТРЫ ОСНОВНОГО КОНТЕНТА*/
+
+#glavblock {
+position: relative;
+width: 877px;
+height: 100%;
+background-color: #E6E6FA;
+border-radius: px; 
+border-top-width: 0px; 
+border-top-style: solid; 
+border-top-color: #000080 ; 
+border-bottom-width: 3px; 
+border-bottom-style: solid; 
+border-bottom-color: #000080 ; 
+border-left-width: 3px; 
+border-left-style: solid; 
+border-left-color: #000080 ; 
+border-right-width: 0px; 
+border-right-style: solid; 
+border-right-color: #000080; 
+left: 220px;
+bottom: 1431px;
+margin-bottom: 0px;
+}
+
+#glavblock h1 {
+color: #000080;
+font-family: sans-serif;
+font-face: Arial;
+font-weight: bold;
+font-style: normal;
+font-size: 30px;
+text-shadow: 1px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow: 1px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 1px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+}
+
+#glavblock h2 {
+color: #000080;
+font-family: sans-serif;
+font-face: Arial;
+font-weight: bold;
+font-style: normal;
+font-size: 26px;
+text-shadow: 1px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow: 1px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 1px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+margin: 14px;
+}
+
+#glavblock p {
+color: black;
+font-family: sans-serif;
+font-face: Verdana;
+font-weight: normal;
+font-style: normal;
+font-size: 19px;
+text-align: justify;
+margin-left: 12px;
+margin-right: 12px;
+margin-top: 0px;
+margin-bottom: 12px;
+
+}
+
+
+#glavblock  ul li {
+color: black;
+font-family: sans-serif;
+font-face: Verdana;
+font-weight: normal;
+font-style: normal;
+font-size: 19px;
+text-align: justify;
+margin: 12px;
+margin-top: 0px;
+}
+
+
+#glavblock span {
+color: black;
+font-family: sans-serif;
+font-face: Verdana;
+font-weight: normal;
+font-style: italic;
+font-size: 18px;
+text-align: justify;
+margin: 32px;
+margin-left: 20px;
+}
+
+
+#glavblock hr {
+color: #e6e6fa;
+font-size: 1px;
+}
+
+/*НОВОСТИ*/
+
+#news h2{
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 19px;
+text-align: center;
+text-shadow: 6px 5px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow: 6px 5px 0px black, 1px 10px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 6px 5px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+text-decoration: none;
+padding: 6px;
+background-color: #000080;
+width: 865px;
+height: 24px;
+border-top: 1px solid #FFD700;
+border-bottom: 1px solid #FFD700;
+position: relative;
+right: 14px;
+}
+
+#repost1 {
+position: relative;
+bottom: 25px;
+left: 710px;
+width: 180px;
+height: 25px;
+margin-top: -22px;
+}
+
+#repost1 img:hover{
+width: 26px;
+height: 26px;
+}
+
+#repost2 {
+position: relative;
+bottom: 25px;
+left: 690px;
+width: 180px;
+height: 25px;
+}
+
+#repost2 img:hover{
+width: 25px;
+height: 25px;
+}
+
+/*Формы*/
+
+#jaloba form input {
+border: 3px solid #000080;
+box-align:center;
+}
+
+#jaloba form textarea {
+border: 3px solid #000080;
+border-radius: 8px;
+box-align:center;
+}
+
+#jaloba  form button {
+position: relative;
+width: 160px;
+height: 23px;
+background: #000080; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD), to(#000080)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD,  #000080); /* для Firefox */
+background-image: -o-linear-gradient(top,  #0000CD, #000080); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#000080'); /* фильтр для IE */
+list-style-type: none;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+float: left;
+box-align:center;
+left: 350px;
+}
+
+
+#jaloba  form button:hover {
+width: 160px;
+height: 23px;
+border-right-color: white; /* отвечает за нижний цвет границы */
+background: #0000CD; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(), to(#0000CD)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top, #000080 , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #000080 , #0000CD  ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000080', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+float: left;
+}
+
+#jaloba  form button:active {
+width: 160px;
+height: 23px;
+background-color: #0000CD ;
+background: ; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD ), to(#0000CD )); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #0000CD  ,  #0000CD ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+float: left;
+}
+
+#jaloba  form button p {
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 13px;
+text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow:2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+top: 0px;
+text-align: center;
+}
+
+#zapisi {
+position: relative;
+width: 877px;
+height: 100%;
+background: #000080;
+left: 0px;
+margin-bottom: 0px;
+height: 25px;
+}
+
+#zapisi span {
+color: #FFD700; 
+font-face: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 19px;
+margin: 20px;
+}
+
+/*ПАРАМЕТРЫ РАЗДЕЛОВ ЭКСПОЗИЦИИ*/
+
+#demomenu{
+position: relative;
+width: 730px;
+height: 1010px;
+box-align: center;
+Left: 68px;
+}
+
+#demomenu table {
+border: 3px solid  #FFD700;
+background: #000080;
+width: 750px;
+
+}
+
+#demomenu table td {
+border: 3px solid  #FFD700;
+background: #000080;
+text-decoration: none;
+
+}
+
+#demomenu td  span {
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 21px;
+text-shadow: 6px 5px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow: 6px 5px 0px black, 1px 10px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 6px 5px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+text-decoration: none;
+bottom: 24px;
+
+}
+
+#demomenu td  p {
+color: white;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: normal;
+font-size: 15px;
+padding: 2px;
+text-decoration: none;
+
+}
+
+
+
+
+#demomenu  table td:hover{
+border: 3px solid orange;
+background: blue;
+}
+
+#demomenu td  span {
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 21px;
+text-shadow: 6px 5px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow: 6px 5px 0px black, 1px 10px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 6px 5px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+text-decoration: none;
+bottom: 2px;
+}
+
+#demomenu td  p:hover {
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: normal;
+font-size: 15px;
+padding: 2px;
+text-decoration: none;
+}
+
+#demomenu td a {
+text-decoration: none;
+}
+
+#demomenu td a:hover{
+text-decoration: none;
+}
+
+/*БЫСТРЫЙ ДОСТУП К БИОГРАФИЯМ*/
+
+#dostup{
+position: relative;
+width: 390px;
+height: 170px;
+box-align: center;
+}
+
+#dostup form button {
+width: 390px;
+height: 35px;
+background: #000080; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD), to(#000080)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD,  #000080); /* для Firefox */
+background-image: -o-linear-gradient(top,  #0000CD, #000080); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#000080'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+}
+
+
+#dostup form button:hover {
+width: 390px;
+height: 35px;
+border-right-color: white; /* отвечает за нижний цвет границы */
+background: #0000CD; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(), to(#0000CD)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top, #000080 , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #000080 , #0000CD  ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000080', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+}
+
+#dostup form button:active {
+width: 390px;
+height: 35px;
+background-color: #0000CD ;
+background: ; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD ), to(#0000CD )); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #0000CD  ,  #0000CD ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+list-style-type: none;
+float: left;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+}
+
+#dostup form button p {
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 18px;
+text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow:2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+text-align: center;
+}
+
+/*НАВЕРХ СТРАНИЦЫ*/
+
+#top {
+position: relative;
+width: 800px;
+height: 25px;
+position: relative;
+box-align: center;
+list-style-type: none;
+left: 190px;
+margin-top: 40px;
+}
+
+#top form button {
+width: 250px;
+height: 25px;
+background: #000080; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD), to(#000080)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD,  #000080); /* для Firefox */
+background-image: -o-linear-gradient(top,  #0000CD, #000080); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#000080'); /* фильтр для IE */
+list-style-type: none;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+float: left;
+}
+
+
+#top  form button:hover {
+width: 250px;
+height: 25px;
+border-right-color: white; /* отвечает за нижний цвет границы */
+background: #0000CD; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(), to(#0000CD)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top, #000080 , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #000080 , #0000CD  ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000080', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+float: left;
+}
+
+#top form button:active {
+width: 250px;
+height: 25px;
+background-color: #0000CD ;
+background: ; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD ), to(#0000CD )); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #0000CD  ,  #0000CD ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+float: left;
+}
+
+#top form button p {
+position: relative;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 16px;
+text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow:2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+top: 0px;
+text-align: center;
+}
+
+/*РЕПОСТЫ В СОЦИАЛЬНЫЕ СЕТИ*/
+
+#repost {
+width: 877px;
+height: 25px;
+background: blue;
+border-top: 3px solid #000080;
+}
+
+
+#repost img {
+position: relative;
+top: 0px;
+left: 70px
+}
+
+#repost img:hover {
+width: 25px;
+height: 25px;
+}
+
+#repost span{
+position: relative;
+top: -5px;
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 16px;
+text-shadow: 6px 5px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow: 6px 5px 0px black, 1px 10px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 6px 5px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+margin-left: 10px;
+text-decoration: none;
+font-weight: bold;
+right: 130px;
+}
+
+#gramot img {
+border:  3px solid #000080;
+}
+
+#gramot img:hover {
+width: 175px;
+height: 240px;
+border: 4px solid blue;
+}
+
+#nagrad {
+position: relative;
+left: 28%;
+}
+
+
+
+#nagrad form button {
+width: 385px;
+height: 35px;
+background: #000080; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD), to(#000080)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD,  #000080); /* для Firefox */
+background-image: -o-linear-gradient(top,  #0000CD, #000080); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#000080'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+margin-top: 5px;
+}
+
+
+#nagrad form button:hover {
+width: 385px;
+height: 35px;
+border-right-color: white; /* отвечает за нижний цвет границы */
+background: #0000CD; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+background: -webkit-gradient(linear, left top, left bottom, from(), to(#0000CD)); /* для Webkit браузеров */
+background: -moz-linear-gradient(top, #000080 , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #000080 , #0000CD  ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000080', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+}
+
+#nagrad form button:active {
+width: 385px;
+height: 35px;
+background-color: #0000CD;
+background: -webkit-gradient(linear, left top, left bottom, from(#0000CD ), to(#0000CD )); /* для Webkit браузеров */
+background: -moz-linear-gradient(top,  #0000CD , #0000CD  ); /* для Firefox */
+background-image: -o-linear-gradient(top, #0000CD  ,  #0000CD ); /* для Opera 11 */
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000CD', endColorstr='#0000CD'); /* фильтр для IE */
+list-style-type: none;
+float: left;
+list-style-type: none;
+float: left;
+border: 2px solid #FFD700;
+border-radius: 13px;
+cursor: pointer;
+}
+
+#nagrad form button p {
+color: #FFD700;
+font-family: sans-serif;
+font-face: Georgia;
+font-weight: normal;
+font-style: italic;
+font-size: 20px;
+text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-moz-text-shadow:2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+-webkit-text-shadow: 2px 1px 0px black, 1px 1px 0px rgba(0,0,0,0.15);
+}
+
+
+
+
+
+
+/*ПОДВАЛ САЙТА*/
+
+#footerblock {
+position: relative;
+width: 1100px;
+height: 90px;
+box-align center;
+background-color: #000080;
+margin-top: 10px;
+
+
+}
+
+#footerblock p {
+color: white;
+font-family: sans-serif;
+font-face: Arial;
+font-weight: normal;
+font-style: normal;
+font-size: 15px;
+text-align: center;
+}
+
+#footerblock a {
+color: white;
+font-family: sans-serif;
+font-face: Arial;
+font-weight: normal;
+font-style: normal;
+font-size: 20px;
+text-align: center;
+}
+
+
+#footerblock a:hover {
+color: #FFD700;
+font-family: sans-serif;
+font-face: Arial;
+font-weight: bold;
+font-style: normal;
+font-size: 22px;
+text-align: center;
+}
+
+
+
+
+
+
+
+
